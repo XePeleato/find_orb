@@ -94,3 +94,7 @@ jobs:
         nmake -f dos_find.mak findorb.obj
 
       shell: cmd
+    - uses: actions/upload-artifact@v4
+      with:
+        name: windows-bin
+        path: find_orb.exe
