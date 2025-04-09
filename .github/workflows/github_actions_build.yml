@@ -97,4 +97,4 @@ jobs:
     - uses: actions/upload-artifact@v4
       with:
         name: windows-bin
-        path: find_orb.exe
+        path: fo.exe
